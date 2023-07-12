@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/redstone_lamp",
+    "overrides": [
+        {"predicate": {"custom_model_data":10001}, "model": "tardis:block/chemistry/blue_lamp"},
+        {"predicate": {"custom_model_data":10002}, "model": "tardis:block/chemistry/green_lamp"},
+        {"predicate": {"custom_model_data":10003}, "model": "tardis:block/chemistry/purple_lamp"},
+        {"predicate": {"custom_model_data":10004}, "model": "tardis:block/chemistry/red_lamp"}
+    ]
+}
